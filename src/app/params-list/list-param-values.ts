@@ -8,7 +8,7 @@ details : [{value:'A Front-end enthusiast with 7+ years of experience in UI/UX d
 },
 {
 param : 'Expirience', 
-sequence : 2
+sequence : 2,
 details : [{value:"Expirience goes here"},
 			{value:"Expirience1 goes here"}]
 },

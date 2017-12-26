@@ -7,8 +7,8 @@
 <div class="col-sm-2">
 		<div id="collapse1" class=" panel-body panel-collapse collapse in">
 		<ul class="nav btn-group">
-		<li  *ngFor="let value of allValues" [class.selected]="value === selectedParam" style="padding-bottom:3%">
-			<button  class="btn btn-success btn-block menuBtn" (click)="onParamClick(value)" ><h4>{{value.param}}</h4></button>
+		<li  *ngFor="let value of allValues"  style="padding-bottom:3%">
+			<button  [class.selected]="value === selectedParam" class="btn btn-success btn-block menuBtn" (click)="onParamClick(value)" ><h4>{{value.param}}</h4></button>
 		</li>
 	</ul>
 </div>

@@ -33,8 +33,9 @@
 	transition: 0.7s;
 	font-size: large;
 }
+.btn:focus {outline:0;}
 
-.button h4 {
+.btn h4 {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;

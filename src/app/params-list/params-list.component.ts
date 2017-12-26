@@ -9,14 +9,15 @@ import {AllValues} from './list-param-values';
 })
 export class ParamsListComponent implements OnInit {
 	
-	 list : listParams = {	 	
+	/* list : listParams = {	 	
 	 param : 'objective',
-	 sequence : 1
-	 };
+	 sequence : 1,
+
+	 };*/
 
 	 allValues = AllValues;
 
-	 selectedParam = this.list;
+	 selectedParam = this.allValues[0];
 
 	 onParamClick(param : listParams):void{
 	 	this.selectedParam = param;

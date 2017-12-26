@@ -8,10 +8,11 @@
    
   .quote{
   	border-left: solid;
-  	margin-left: 90%;
+  	margin-left: 80%;
   	color: #8e8e8e;
   }
   .quote h5,h6{
-  	color: #8e8e8e;
+    color: #8e8e8e;
+    padding-left: 2%
   }
   

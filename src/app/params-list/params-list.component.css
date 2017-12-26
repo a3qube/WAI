@@ -1,0 +1,43 @@
+
+.menuBG{
+	background-color: #d1f12e21
+}
+
+.detailsBG{
+	background-color: #fff90054
+}
+
+.btn{
+	border-radius: 50px;
+	border: 2px solid #9bfbd8;	
+	transition: all 0.5s;
+	letter-spacing: 1px;
+}
+.btn:hover{
+	box-shadow: 0 10px 5px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	left: -20px;
+	transition: 0.7s;
+}
+.btn:hover h4:after {
+	opacity: 1;
+	right: 0;
+
+}
+
+.btn h4:after {
+	content: '\00BB';
+	position: relative;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.7s;
+	font-size: large;
+}
+
+.button h4 {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+
+}

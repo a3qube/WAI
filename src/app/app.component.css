@@ -6,4 +6,12 @@
     letter-spacing: 2px;
     }
    
+  .quote{
+  	border-left: solid;
+  	margin-left: 90%;
+  	color: #8e8e8e;
+  }
+  .quote h5,h6{
+  	color: #8e8e8e;
+  }
   

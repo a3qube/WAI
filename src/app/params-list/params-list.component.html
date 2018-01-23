@@ -13,8 +13,26 @@
 	</ul>
 </div>
 </div>
-<div class=" col-sm-10">
-<app-param-details [value]="selectedParam"></app-param-details>
+<div class=" col-sm-10 detailsTrans">
+<app-param-details 
+*ngIf="selectedParam && selectedParam.sequence === 1"
+[value]="selectedParam">
+</app-param-details>
+<app-experience-block 
+*ngIf="selectedParam && selectedParam.sequence === 2">
+</app-experience-block>
+<app-education-block 
+*ngIf="selectedParam && selectedParam.sequence === 3">
+</app-education-block>
+<app-learning-block 
+*ngIf="selectedParam && selectedParam.sequence === 4">
+</app-learning-block>
+<app-hobbies-block 
+*ngIf="selectedParam && selectedParam.sequence === 5">
+</app-hobbies-block>
+<app-contact-block 
+*ngIf="selectedParam && selectedParam.sequence === 6">
+</app-contact-block>
 	</div>
 	
 

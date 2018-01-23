@@ -1,5 +1,5 @@
-<div *ngIf="value.details" class="summaryPanel">
+<div *ngIf="value && value.details" class="summaryPanel">
 	<div *ngFor="let desc of value.details" >
-	<p class="text-centered">{{desc.value}}</p>
+	<p class="text-centered objectives">{{desc.value}}</p>
 </div>
 </div>
